@@ -1,0 +1,454 @@
+html,
+body {
+  margin: -75px 0px 0px 0px;
+}
+
+h1,
+h2,
+a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+/* Main */
+
+.main {
+  text-align: center;
+  height: 730px;
+  /* text-align: center; */
+  background: url("https://media.gettyimages.com/id/1210670800/fr/photo/controls-and-dashboards-in-the-cockpit-of-an-aircraft.jpg?s=612x612&w=0&k=20&c=aTRCVdSe12qOTgh4IVGIqdTVwqBKLFsgBNS9cXrW_pc=");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main h1 {
+  padding-top: 150px;
+  color: #ffffff;
+  font-size: 130px;
+  margin-bottom: -5px;
+}
+
+.main p {
+  color: #ffffff;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.main .btn {
+  background-color: black;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 30px;
+  font-size: 18px;
+}
+
+.main .btn:hover {
+  color: #000000;
+  background-color: #eb8c00;
+}
+
+
+/* Supporting */
+
+.supporting {
+  text-align: center;
+  padding: 80px 0 80px 0;
+  background-color: #1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.supporting .btn:hover {
+  color: #000000;
+  background-color: #eb8c00;
+}
+
+
+/* Feature */
+
+.feature {
+  height: 600px;
+  background: url("https://images.freeimages.com/images/large-previews/aeb/jet-airplane-landing-at-sunset-ca-2000-1449999.jpg") no-repeat;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding: 250px 0 0;
+  text-align: center;
+}
+
+
+
+/* Footer */
+
+.footer {
+  height: 600px;
+  background: url("https://media.gettyimages.com/id/1455492835/fr/photo/instrument-screens-in-cockpit-flight-deck-of-a-commercial-aircraft.jpg?s=612x612&w=0&k=20&c=aMsz8-N7mBgNRNOs2VphHhi4ass8cxUjzPnxIdLlmoM=");
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding: 250px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.footer .btn {
+  background-color: black;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 30px;
+  font-size: 18px;
+}
+
+.footer .btn:hover {
+  color: #000000;
+  background-color: #eb8c00;
+}
+
+.sig {
+  height: 30px;
+  width: 100%;
+}
+
+.sig p {
+  text-align: right;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
+
+.bro {
+  height: 600px;
+  background-image: url("https://media.gettyimages.com/id/AB23666/fr/photo/pilot-and-co-pilot-in-flight-simulator-mc-donald-douglas-md11.jpg?s=612x612&w=0&k=20&c=nJAkOxGJXaQP8k6vsqFGQVo5fw8AvCjNcFXPh6K0BYo=");
+  text-align: center;
+  background-size: cover;
+
+
+}
+
+.bro h1,
+.bro h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding: 250px 0 0;
+  text-align: center;
+}
+
+.dog {
+  height: 600px;
+  background-image: url("https://media.gettyimages.com/id/1163317564/fr/photo/radar-de-cockpit.jpg?s=612x612&w=0&k=20&c=uVTL8WXA0s0FgIfjbOmbcOAaiNccNQ2gsmc_8lkSz5Y=");
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.dog h1,
+.dog h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding: 250px 0 0;
+  text-align: center;
+}
+
+
+
+.social {
+  font-size: 1.5rem;
+}
+
+.shadow {
+  text-shadow: 2px 2px 5px black;
+}
+
+.padding-bottom {
+  padding-bottom: 50px;
+}
+
+.padding-top {
+  padding-top: 50px;
+}
+
+.astronautique {
+  color: #fff;
+  background-color: #003470
+}
+
+.astronautique-border {
+  border-bottom: 4px solid #003470
+}
+
+.bouton-outline-astronautique {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #003470
+}
+
+.bouton-outline-astronautique:hover {
+  color: #fff;
+  background-color: #003470;
+  border-color: #003470
+}
+
+.astronomie {
+  color: #fff;
+  background-color: #e0ae11
+}
+
+.astronomie-border {
+  border-bottom: 4px solid #e0ae11
+}
+
+.bouton-outline-astronomie {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #e0ae11
+}
+
+.bouton-outline-astronomie:hover {
+  color: #fff;
+  background-color: #e0ae11;
+  border-color: #e0ae11
+}
+
+.exploration {
+  color: #fff;
+  background-color: #a6001a
+}
+
+.exploration-border {
+  border-bottom: 4px solid #a6001a
+}
+
+.bouton-outline-exploration {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #a6001a
+}
+
+.bouton-outline-exploration:hover {
+  color: #fff;
+  background-color: #a6001a;
+  border-color: #a6001a
+}
+
+.home {
+  color: #fff;
+  background-color: #0e92f0
+}
+
+.home-border {
+  border-bottom: 4px solid #0e92f0
+}
+
+.bouton-outline-home {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #0e92f0
+}
+
+.bouton-outline-home:hover {
+  color: #fff;
+  background-color: #0e92f0;
+  border-color: #0e92f0
+}
+
+boy {
+  color: #fff !important;
+  background-color: #181f23 !important
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fab {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+  opacity: 0.7;
+}
+
+a.boy {
+  color: #fff;
+  text-decoration: none
+}
+
+a.boy:hover {
+  color: #fff;
+  text-decoration: underline
+}
+
+.social {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 343px;
+  height: 333px;
+  padding: 30px;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+
+  overflow: hidden;
+}
+
+textarea {
+
+  width: 276px;
+  height: 110px;
+
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  padding-left: 45px;
+  padding-right: 20px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+input {
+  width: 276px;
+  height: 48px;
+
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  color: Yellow;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4) border: 1px solid Yellow;
+}
+
+input.name {
+  background: rgba(255, 255, 255, 0.4) url(mailto:paguielnganji@gmail.com) no-repeat scroll 16px 16px;
+  padding-left: 45px;
+
+}
+
+input.email {
+  background: rgba(255, 255, 255, 0.4) url(mailto:paguielnganji@gmail.com) no-repeat scroll 16px 20px;
+  padding-left: 45px;
+
+}
+
+input.message {
+  background: rgba(255, 255, 255, 0.4) url(mailto:paguielnganji@gmail.com)
