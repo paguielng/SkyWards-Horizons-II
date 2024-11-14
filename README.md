@@ -2,7 +2,7 @@
 
 **SkyWards Horizons** est un blog dédié à l'aviation, où les passionnés peuvent explorer les dernières actualités, découvrir des contenus multimédia fascinants, et plonger dans le monde de l'aviation. Que vous soyez un aviateur, un passionné de photographie aéronautique ou simplement curieux de découvrir les dernières technologies de l'aviation, ce site est fait pour vous.
 
-## 🚀 Table des matières
+## Table des matières
 1. [À propos](#à-propos)
 2. [Fonctionnalités](#fonctionnalités)
 3. [Installation](#installation)
@@ -10,7 +10,7 @@
 5. [Licences](#licences)
 6. [Contact](#contact)
 
-## ✈️ À propos
+## À propos
 
 **SkyWards Horizons** est un site web qui propose des articles, des médias et des ressources autour du domaine de l'aviation. Le site couvre une large gamme de sujets, notamment :
 
@@ -22,7 +22,7 @@
 
 Le blog vise à informer, inspirer et engager la communauté aéronautique à travers du contenu de qualité.
 
-## 🛠️ Fonctionnalités
+## Fonctionnalités
 
 - **Page d'accueil attrayante** avec un visuel dynamique sur l'aviation.
 - **Sections de contenu** : Actualités, Médias, Spotting, et plus.
@@ -30,7 +30,7 @@ Le blog vise à informer, inspirer et engager la communauté aéronautique à tr
 - **Formulaire de contact** permettant aux visiteurs d'envoyer des messages ou des questions.
 - **Liens vers les réseaux sociaux** : Connectez-vous et suivez-nous sur Twitter, YouTube, Instagram, et plus.
 
-## 🖥️ Installation
+## Installation
 
 Si vous souhaitez exécuter le projet en local, voici les étapes pour l'installation :
 
